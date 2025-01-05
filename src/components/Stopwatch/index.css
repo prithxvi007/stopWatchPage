@@ -1,0 +1,73 @@
+.stopwatch-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 65px 0px 0px 65px;
+}
+
+.stopwatch-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+}
+
+.stopwatch-card-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px;
+}
+
+.stopwatch-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.timer-img {
+  height: 35px;
+  width: 35px;
+}
+.timer-text {
+  margin-left: 8px;
+  color: #333333;
+  font-size: 25px;
+  font-weight: bold;
+}
+.stopwatch-timer {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.stopwatch-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stopwatch-btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #ffffff;
+}
+.green {
+  background-color: #1db05f;
+}
+.red {
+  background-color: #ef0d36;
+}
+.yellow {
+  background-color: #eaa800;
+}
